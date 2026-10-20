@@ -1,0 +1,10 @@
+# Dependencias del .venv propio del repo para motor_excel.py / motor_docling.py
+# (all2md_repo_app.py los invoca como subprocess -- ver README.md).
+#
+# Se conserva opencv-python 4.11.0.86 por compatibilidad con el entorno
+# original de macOS, tras observar fallos intermitentes durante OCR.
+# El pin no garantiza ausencia de fallos y debe revisarse al actualizar
+# Docling y validar de nuevo las conversiones con documentos sintéticos.
+docling
+openpyxl
+opencv-python==4.11.0.86
